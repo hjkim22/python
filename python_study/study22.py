@@ -8,7 +8,11 @@
 정수 = input()
 정수 = int(정수)
 print(정수, type(정수))
+# 밑 코드로 수정 가능
+정수 = int(input())
+print(정수, type(정수))
 
 실수 = input()
 실수 = float(실수)
 print(실수, type(실수))
+
