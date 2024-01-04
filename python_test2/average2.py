@@ -4,9 +4,6 @@
 
 nums = [1, 2, 3, 4, 5]
 
-num_sum = sum(nums)
-num_len = len(nums)
-
-average = num_sum / num_len
+average = sum(nums) / len(nums)
 
 print(average)
