@@ -24,5 +24,5 @@ for item in order_list:
 
 total_price = b_p * fish_price[0] + b_s * fish_price[1] + b_j * fish_price[2]
 
-print(f'주문이 완료됐습니다. 팥 {b_p}개, 슈크림 {b_s}개, 잡채 {b_j}개 > 총 {b_p + b_s + b_j}개 주문하였습니다.')
+print(f'주문완료. 팥 {b_p}개, 슈크림 {b_s}개, 잡채 {b_j}개')
 print(f"총 가격은 {total_price}원 입니다.")
