@@ -2,7 +2,7 @@
 
 # def profile(name, age, lang1, lang2, lang3, lang4, lang5):
 #     print("이름 : {}\t나이 : {}\t".format(name, age), end=" ")
-#     print(lang1, lang2, lang3, lang4)
+#     print(lang1, lang2, lang3, lang4, lang5)
 
 def profile(name, age, *language):
     print("이름 : {0}\t나이 : {1}\t".format(name, age), end=" ")
@@ -11,5 +11,5 @@ def profile(name, age, *language):
     print()
     
 
-print("KIM", 20, "python", "java", "c", "c++", "js", "c#")
-print("LEE", 21, "kotlin", "swift")
+profile("KIM", 20, "python", "java", "c", "c++", "js", "c#")
+profile("LEE", 21, "kotlin", "swift")
